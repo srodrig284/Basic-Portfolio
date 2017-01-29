@@ -1,0 +1,305 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/paper_2.png) #efeee7;
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+	color: #9d9d9d;
+	height:100%;
+}
+
+header {
+	background-color: #fff;
+	border-bottom: 2px solid #ccc;
+	padding-left: 100px;
+	margin: 0;
+	width: 92%
+}
+
+.footer {
+	background-color: #666;
+	height: 60px;
+	text-align: center;
+	border-top: 5px solid #000016;
+	clear: both;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	padding-top: 23px;
+}
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -60px /* the bottom margin is the negative value of the footer's height */;
+}
+.footer, .push {  /* .push must be the same height as .footer */
+height: 60px;
+}
+
+header, .main_heading {
+		float: left;
+}
+
+.main_menu {
+	color: #fff;
+	padding-top: 23px;
+	padding-right: 50px;
+	float: right;
+}
+
+h1, h2 {
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+	color: #000016;
+}
+
+h1 {
+	padding: 5px;
+	display: inline-block;
+	padding: 20px;
+	margin-bottom: 0;
+	background-color: #000016;
+	color: #fff;
+	font-size: 1.75em;
+}
+
+div,  {
+  clear: both;
+}
+
+.sub_heading_border {
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 20px;
+	padding: 10px 0;
+	margin-left: 10px;
+}
+
+.sub_heading_1 {
+	font-size: 1.5em;
+	padding: 10px 0 5px 0;
+	font-weight: bold;
+}
+
+.sub_heading_2 {
+	font-size: 1.1em;
+	padding: 14px 0 6px 0;
+	font-weight: bold;
+}
+
+.main-menu {
+	padding: 26px 0 0 500px;
+	height: 100%;
+	font-size: .85em;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	text-align: right;
+}
+
+li {
+	display: inline;
+	float: left;
+	padding: 8px;
+}
+
+a {
+	text-decoration: none;
+	color: #424242;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #424242;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: .85em;
+}
+
+.container {
+	width: 960px;
+	padding-left: 100px
+
+}
+
+.main-bio, .right-menu {
+	float: left;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+.main-bio {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	width: 650px;
+	padding: 20px 20px 20px 20px
+	margin: 20px 0 100px 20px;
+	line-height: 150%;
+}
+
+.right-menu {
+	width: 270px;
+	background-color: #fff;
+	border: 2px solid #ddd;
+	margin-left: 20px;
+	padding: 0 10px 0 10px;
+}
+img {
+	max-width: 100px;
+}
+
+.thumb {
+	width: 50px;
+	height: 50px;
+	padding: 0 15px 10px 15px;
+}
+
+#profpic {
+	float: left;
+	padding: 0 10px 10px 10px;
+}
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+.djing_tag {
+	position: absolute;
+	top: 310px;
+	background-color: #4aaaa5;
+	width: 293px;
+	height: 30px;
+	padding: 5px 0 0 0;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+.fashion_tag {
+	position: absolute;
+	top: 310px;
+	background-color: #4aaaa5;
+	width: 293px;
+	height: 30px;
+	padding: 5px 0 0 0;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+.livemusic_tag {
+	position: absolute;
+	top: 610px;
+	background-color: #4aaaa5;
+	width: 293px;
+	height: 30px;
+	padding: 5px 0 0 0;
+	text-align: center;
+	columns: #fff;
+	font-weight: bold;
+}
+
+.streetart_tag {
+	position: absolute;
+	top: 610px;
+	background-color: #4aaaa5;
+	width: 293px;
+	height: 30px;
+	padding: 5px 0 0 0;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+.beach_tag {
+	position: absolute;
+	top: 890px;
+	background-color: #4aaaa5;
+	width: 293px;
+	height: 30px;
+	padding: 5px 0 0 0;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+#contact {
+	background: #F9F9F9;
+	padding: 25px;
+	margin: 0;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px 0;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
+	width:96%;
+	border:1px solid #CCC;
+	background: #FFF;
+	margin: 0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height: :300px;
+	max-width: 100%;
+	resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor: pointer;
+	width: 100%;
+	border:none;
+	background-color: #000016;
+	color: #FFF;
+	margin: 0 0 5pxa;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+	background-color:#f10e0e;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5)
+}
