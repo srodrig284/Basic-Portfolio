@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc26aa7f-d047-4538-8859-383ba29e954a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/abstract.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/animal2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/animals_placeholder.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/city.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/nature.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Basic-Portfolio.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/01-2017-VW-Class-Content/TTh/2-html-css-bootstrap/2.1/Supplemental/HerokuGuide/HerokuSteps.pdf" afterPath="$USER_HOME$/01-2017-VW-Class-Content/TTh/2-html-css-bootstrap/2.1/Supplemental/HerokuGuide/HerokuSteps.pdf" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/01-2017-VW-Class-Content/Saturday/1.3/1-RelativePaths/RelativePaths_DEMO/html-bio-with-css.html" afterPath="$USER_HOME$/01-2017-VW-Class-Content/Saturday/1.3/1-RelativePaths/RelativePaths_DEMO/html-bio-with-css.html" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/01-2017-VW-Class-Content/Saturday/1.3/1-RelativePaths/RelativePaths_UNSOLVED/RelativePaths_1/html-bio.html" afterPath="$USER_HOME$/01-2017-VW-Class-Content/Saturday/1.3/1-RelativePaths/RelativePaths_UNSOLVED/RelativePaths_1/html-bio.html" />
@@ -22,10 +14,6 @@
       <change type="MODIFICATION" beforePath="$USER_HOME$/01-2017-VW-Class-Content/TTh/2-html-css-bootstrap/2.1/Activities/3-MultipleCSS/2_CSS_Files/style2.css" afterPath="$USER_HOME$/01-2017-VW-Class-Content/TTh/2-html-css-bootstrap/2.1/Activities/3-MultipleCSS/2_CSS_Files/style2.css" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/01-2017-VW-Class-Content/TTh/2-html-css-bootstrap/2.1/Activities/4-ResetCSS/Example.html" afterPath="$USER_HOME$/01-2017-VW-Class-Content/TTh/2-html-css-bootstrap/2.1/Activities/4-ResetCSS/Example.html" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/01-2017-VW-Class-Content/TTh/2-html-css-bootstrap/2.1/Activities/5-HerokuDeployedSite/PreDeploy/index.php" afterPath="$USER_HOME$/01-2017-VW-Class-Content/TTh/2-html-css-bootstrap/2.1/Activities/5-HerokuDeployedSite/PreDeploy/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="$PROJECT_DIR$/portfolio.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -218,6 +206,11 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
@@ -283,18 +276,18 @@
       <workItem from="1485871680615" duration="536000" />
       <workItem from="1485895495314" duration="270000" />
       <workItem from="1485959655833" duration="28000" />
-      <workItem from="1485959758323" duration="9965000" />
+      <workItem from="1485959758323" duration="10361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10799000" />
+    <option name="totallyTimeSpent" value="11195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="42" width="1260" height="684" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25779969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25779969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -549,6 +542,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="74" column="13" lean-forward="false" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
