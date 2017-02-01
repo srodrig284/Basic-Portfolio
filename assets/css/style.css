@@ -17,7 +17,6 @@ header {
 
 .footer {
     background-color: #666;
-    height: 60px;
     text-align: center;
     border-top: 5px solid #000016;
     clear: both;
@@ -28,7 +27,23 @@ header {
     padding-top: 23px;
 }
 
+h1, h2 {
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    color: #000016;
+}
 
+h1 {
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: #000016;
+    color: #fff;
+    font-size: 1.75em;
+}
+
+div{
+    clear: both;
+}
 
 .thumb {
     width: 50px;
@@ -43,7 +58,13 @@ html, body {
 
 .wrapper {
     min-height: 100%;
-    margin: 0 auto -40px /* the bottom margin is the negative value of the footer's height */;
+    margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
+}
+
+
+.wrapper_header {
+    min-height: 100%;
+    margin: 0 auto; /* the bottom margin is the negative value of the footer's height */
 }
 
 .footer, .push { /* .push must be the same height as .footer */
@@ -69,31 +90,18 @@ header, #main_heading {
 
 #main_heading {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 14px 20px 0 20px;
+    width: 625px;
+    margin: 0 100px 0 20px;
 }
 
-#main_menu {
-    color: #fff;
-    padding-top: 23px;
-    padding-right: 50px;
-    float: right;
-}
-
-h1, h2 {
-    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-    color: #000016;
-}
-
-h1 {
-    display: inline-block;
-    padding: 20px;
-    margin-bottom: 0;
-    background-color: #000016;
-    color: #fff;
-    font-size: 1.75em;
-}
-
-div{
-    clear: both;
+#main_heading_menu {
+    width: 270px;
+    background-color: #fff;
+    padding: 14px 10px 0 10px;
+    border: 2px;
+    margin: 20px 0 0 20px;
+    float: left;
 }
 
 .sub_heading_border {
@@ -145,11 +153,11 @@ p {
     font-size: .85em;
 }
 
-#main_left_section, #right_menu {
+#left_section, #right_menu {
     float: left;
 }
 
-#main_left_section {
+#left_section {
     background-color: #fff;
     border: 2px solid #ddd;
     width: 625px;
@@ -245,5 +253,6 @@ fieldset {
     padding: 10px 20px 10px 20px;
     text-align: center;
     background: #000016;
+    color: #f7f7f7;
 }
 
