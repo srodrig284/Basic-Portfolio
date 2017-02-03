@@ -10,9 +10,7 @@ body {
 header {
     background-color: #fff;
     border-bottom: 2px solid #ccc;
-    padding-left: 100px;
-    margin: 0;
-    width: 92%
+    width: 100%
 }
 
 .footer {
@@ -72,11 +70,8 @@ html, body {
 }
 
 .container {
-
-    /* Positioning */
     margin: 0 auto;
-
-    /* Box-model */
+    min-height: 100%;
     width: 1024px;
 }
 
@@ -84,24 +79,23 @@ html, body {
     overflow: auto;
 }
 
-header, #main_heading {
+header, #main_heading, #main_heading_menu {
     float: left;
 }
 
 #main_heading {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 14px 20px 0 30px;
-    width: 625px;
-    margin: 0 100px 0 20px;
+    padding: 14px 20px 0 20px;
+    width: 600px;
+    margin: 0 100px 0 0;
 }
 
 #main_heading_menu {
-    width: 270px;
+    width: auto;
     background-color: #fff;
-    padding: 14px 10px 0 10px;
+    padding: 14px 0 0 10px;
     border: 2px;
-    margin: 20px 0 0 20px;
-    float: left;
+    margin: 20px 0 0 45px;
 }
 
 .sub_heading_border {
@@ -253,3 +247,27 @@ fieldset {
     background: #000016;
     color: #f7f7f7;
 }
+
+/*
+@media only screen and (max-width: 768px) {
+	section {
+		width: 100%;
+		border-bottom: 1px solid black;
+	}
+	.content-wrapper {
+		background-color: #001386;
+		max-width: 545px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.content-wrapper {
+		background-color: #007F21;
+		max-width: 432px;
+	}
+
+	.about-me img {
+		width: 100%;
+	}
+}
+ */
